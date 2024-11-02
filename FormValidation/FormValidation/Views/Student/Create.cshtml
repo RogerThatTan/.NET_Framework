@@ -1,0 +1,22 @@
+﻿
+@{
+   ViewBag.Title = "Create";
+}
+
+<h2>Student Information</h2>
+
+<form method="post">
+    <label>Name:</label><br />
+    <input type="text" value=@Model.Name name="Name" placeholder="Name" /><br />
+    <span class="alert-danger"> @Html.ValidationMessage("Name") </span><br />
+    <label>Student ID:</label><br />
+    <input type="text" value=@Model.Id name="Id" placeholder="XX-XXXXX-X" /><br />
+    <span class="alert-danger">@Html.ValidationMessage("Id")</span><br />
+    <label>Date of Birth:</label><br />
+    <input type="date" value=@Model.Dob name="Dob" placeholder="Dob" /><br />
+    <span class="alert-danger">@Html.ValidationMessage("Dob")</span><br />
+    <label>Email:</label><br />
+    <input type="text" value=@Model.Email name="Email" placeholder="XX-XXXXX-X@student.aiub.edu" /><br />
+    <span class="alert-danger">@Html.ValidationMessage("Email")</span><br />
+    <input type="submit" class="btn btn-primary" value="Submit" name="Submit" />
+</form>
