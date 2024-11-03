@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xtanv\\source\\repos\\ActionToView\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F43CFE8-6134-4A0C-9E51-AD5B394EB52E}|ActionToView\\ActionToView.csproj|c:\\users\\xtanv\\source\\repos\\actiontoview\\actiontoview\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F43CFE8-6134-4A0C-9E51-AD5B394EB52E}|ActionToView\\ActionToView.csproj|solutionrelative:actiontoview\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F43CFE8-6134-4A0C-9E51-AD5B394EB52E}|ActionToView\\ActionToView.csproj|c:\\users\\xtanv\\source\\repos\\actiontoview\\actiontoview\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F43CFE8-6134-4A0C-9E51-AD5B394EB52E}|ActionToView\\ActionToView.csproj|solutionrelative:actiontoview\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F43CFE8-6134-4A0C-9E51-AD5B394EB52E}|ActionToView\\ActionToView.csproj|c:\\users\\xtanv\\source\\repos\\actiontoview\\actiontoview\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F43CFE8-6134-4A0C-9E51-AD5B394EB52E}|ActionToView\\ActionToView.csproj|solutionrelative:actiontoview\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F43CFE8-6134-4A0C-9E51-AD5B394EB52E}|ActionToView\\ActionToView.csproj|c:\\users\\xtanv\\source\\repos\\actiontoview\\actiontoview\\views\\portfolio\\qualification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F43CFE8-6134-4A0C-9E51-AD5B394EB52E}|ActionToView\\ActionToView.csproj|solutionrelative:actiontoview\\views\\portfolio\\qualification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F43CFE8-6134-4A0C-9E51-AD5B394EB52E}|ActionToView\\ActionToView.csproj|c:\\users\\xtanv\\source\\repos\\actiontoview\\actiontoview\\models\\refree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F43CFE8-6134-4A0C-9E51-AD5B394EB52E}|ActionToView\\ActionToView.csproj|solutionrelative:actiontoview\\models\\refree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F43CFE8-6134-4A0C-9E51-AD5B394EB52E}|ActionToView\\ActionToView.csproj|c:\\users\\xtanv\\source\\repos\\actiontoview\\actiontoview\\views\\portfolio\\references.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F43CFE8-6134-4A0C-9E51-AD5B394EB52E}|ActionToView\\ActionToView.csproj|solutionrelative:actiontoview\\views\\portfolio\\references.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\source\\repos\\ActionToView\\ActionToView\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "ActionToView\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\xtanv\\source\\repos\\ActionToView\\ActionToView\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "ActionToView\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T17:35:33.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\source\\repos\\ActionToView\\ActionToView\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "ActionToView\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Users\\xtanv\\source\\repos\\ActionToView\\ActionToView\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "ActionToView\\App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T17:35:31.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\source\\repos\\ActionToView\\ActionToView\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "ActionToView\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\xtanv\\source\\repos\\ActionToView\\ActionToView\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "ActionToView\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T17:35:28.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "References.cshtml",
+              "DocumentMoniker": "C:\\Users\\xtanv\\source\\repos\\ActionToView\\ActionToView\\Views\\Portfolio\\References.cshtml",
+              "RelativeDocumentMoniker": "ActionToView\\Views\\Portfolio\\References.cshtml",
+              "ToolTip": "C:\\Users\\xtanv\\source\\repos\\ActionToView\\ActionToView\\Views\\Portfolio\\References.cshtml",
+              "RelativeToolTip": "ActionToView\\Views\\Portfolio\\References.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T17:32:58.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Refree.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\source\\repos\\ActionToView\\ActionToView\\Models\\Refree.cs",
+              "RelativeDocumentMoniker": "ActionToView\\Models\\Refree.cs",
+              "ToolTip": "C:\\Users\\xtanv\\source\\repos\\ActionToView\\ActionToView\\Models\\Refree.cs",
+              "RelativeToolTip": "ActionToView\\Models\\Refree.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T17:31:19.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Qualification.cshtml",
+              "DocumentMoniker": "C:\\Users\\xtanv\\source\\repos\\ActionToView\\ActionToView\\Views\\Portfolio\\Qualification.cshtml",
+              "RelativeDocumentMoniker": "ActionToView\\Views\\Portfolio\\Qualification.cshtml",
+              "ToolTip": "C:\\Users\\xtanv\\source\\repos\\ActionToView\\ActionToView\\Views\\Portfolio\\Qualification.cshtml",
+              "RelativeToolTip": "ActionToView\\Views\\Portfolio\\Qualification.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T17:22:19.276Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

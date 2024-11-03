@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Education";
+}
+
+<h2>Education</h2>
+
+@if(TempData["msg"] != null)
+{
+    <span class="alert alert-info">
+        @TempData["msg"]
+    </span>
+}
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Degree</th>
+        <th>Institution</th>
+        <th>Result</th>
+        <th>Year</th>
+    </tr>
+
+    @for(int i=0; i < 3; i++)
+    {
+        <tr>
+            <td>@ViewBag.Degrees[i].Title</td>
+            <td>@ViewBag.Degrees[i].Ins</td>
+            <td>@ViewBag.Degrees[i].Result</td>
+            <td>@ViewBag.Degrees[i].Year</td>
+        </tr>
+    }
+
+    @foreach(var item in ViewData["Degrees2"] as ActionToView.Models.Degree[])
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.Ins</td>
+                    <td>@item.Result</td>
+                    <td>@item.Year</td>
+                </tr>
+            }
+
+
+
+</table>
