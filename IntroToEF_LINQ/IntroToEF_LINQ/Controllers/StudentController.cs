@@ -59,41 +59,43 @@ namespace IntroToEF_LINQ.Controllers
         [HttpPost]
         public ActionResult Edit(Student s)
         {
-            if (!ModelState.IsValid)
-            {
-                return View(s); // Return the view with the existing model data and validation errors
-            }
-
             var data = db.Students.Find(s.Id);
-            if (data != null)
-            {
-                db.Entry(data).CurrentValues.SetValues(s);
-                db.SaveChanges();
-                TempData["Msg"] = "Student Updated";
-                return RedirectToAction("List");
-            }
-            TempData["Msg"] = "Student with Id " + s.Id + " Not Found";
+            data.Name = s.Name;
+            data.Cgpa = s.Cgpa;
+            db.SaveChanges();
+            TempData["Msg"] = "Student Updated";
             return RedirectToAction("List");
+
+            //if (!ModelState.IsValid)
+            //{
+            //    return View(s); 
+            //}
+            //if (data != null)
+            //{
+            //    db.Entry(data).CurrentValues.SetValues(s);
+            //    db.SaveChanges();
+            //    TempData["Msg"] = "Student Updated";
+            //    return RedirectToAction("List");
+            //}
+            //TempData["Msg"] = "Student with Id " + s.Id + " Not Found";
+            //return RedirectToAction("List");
         }
 
-
-
-
-
-
         [HttpGet]
-        public ActionResult Delete(int id) {
-            var data = db.Students.Find(id);
+        public ActionResult Delete(int id)
+        {
+            //var data = db.Students.Find(id);
+            var data = (from s in db.Students
+                        where s.Id == id
+                        select s).FirstOrDefault();
             if (data != null)
             {
                 return View(data);
             }
-            TempData["Msg"] = "Student with Id " + id + " Not Found";
             return RedirectToAction("List");
         }
 
         [HttpPost]
-
         public ActionResult Delete(Student s)
         {
             var data = db.Students.Find(s.Id);
@@ -104,19 +106,22 @@ namespace IntroToEF_LINQ.Controllers
                 TempData["Msg"] = "Student Deleted";
                 return RedirectToAction("List");
             }
-            TempData["Msg"] = "Student with Id " + s.Id + " Not Found";
             return RedirectToAction("List");
         }
 
+        //public ActionResult Delete(Student formObj)
+        //{
+        //    var exobj = (from s in db.Students
+        //                 where s.Id == formObj.Id
+        //                 select s).FirstOrDefault();
+        //    db.Students.Remove(exobj);
+        //    db.SaveChanges();
+        //    TempData["Msg"] = "Student Deleted";
+        //    return RedirectToAction("List");
+        //}
 
 
 
 
-
-        // GET: Student
-        public ActionResult Index()
-        {
-            return View();
-        }
     }
 }

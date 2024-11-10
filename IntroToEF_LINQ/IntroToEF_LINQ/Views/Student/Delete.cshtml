@@ -10,6 +10,7 @@
     <input type="hidden" name="Id" value="@Model.Id" />
     <p>Name: @Model.Name</p>
     <p>Cgpa: @Model.Cgpa</p>
-    <button type="submit" class="btn btn-danger">Delete</button>
+    <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure to delete @Model.Name and @Model.Cgpa this student?')">Delete</button>
+    @*<button type="submit" class="btn btn-danger">Delete</button>*@
     <a href="@Url.Action("List")" class="btn btn-secondary">Cancel</a>
 </form>

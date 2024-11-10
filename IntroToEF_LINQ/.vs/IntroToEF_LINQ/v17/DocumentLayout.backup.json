@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|c:\\users\\xtanv\\onedrive\\desktop\\.net_framework\\introtoef_linq\\introtoef_linq\\views\\student\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|solutionrelative:introtoef_linq\\views\\student\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\introtoef_linq\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|solutionrelative:introtoef_linq\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|c:\\users\\xtanv\\onedrive\\desktop\\.net_framework\\introtoef_linq\\introtoef_linq\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|solutionrelative:introtoef_linq\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\introtoef_linq\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|solutionrelative:introtoef_linq\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\introtoef_linq\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|solutionrelative:introtoef_linq\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|c:\\users\\xtanv\\onedrive\\desktop\\.net_framework\\introtoef_linq\\introtoef_linq\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|solutionrelative:introtoef_linq\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|c:\\users\\xtanv\\onedrive\\desktop\\.net_framework\\introtoef_linq\\introtoef_linq\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|solutionrelative:introtoef_linq\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\introtoef_linq\\views\\student\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|solutionrelative:introtoef_linq\\views\\student\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|c:\\users\\xtanv\\onedrive\\desktop\\.net_framework\\introtoef_linq\\introtoef_linq\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|solutionrelative:introtoef_linq\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|c:\\users\\xtanv\\onedrive\\desktop\\.net_framework\\introtoef_linq\\introtoef_linq\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|solutionrelative:introtoef_linq\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|c:\\users\\xtanv\\onedrive\\desktop\\.net_framework\\introtoef_linq\\introtoef_linq\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\introtoef_linq\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|solutionrelative:introtoef_linq\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\introtoef_linq\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F63B9A81-22C3-4380-A2DD-58F6319A5E48}|IntroToEF_LINQ\\IntroToEF_LINQ.csproj|solutionrelative:introtoef_linq\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,24 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\IntroToEF_LINQ\\Views\\Student\\Delete.cshtml",
               "RelativeDocumentMoniker": "IntroToEF_LINQ\\Views\\Student\\Delete.cshtml",
               "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\IntroToEF_LINQ\\Views\\Student\\Delete.cshtml",
               "RelativeToolTip": "IntroToEF_LINQ\\Views\\Student\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-08T14:37:28.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\IntroToEF_LINQ\\Views\\Student\\Edit.cshtml",
               "RelativeDocumentMoniker": "IntroToEF_LINQ\\Views\\Student\\Edit.cshtml",
@@ -68,20 +68,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\IntroToEF_LINQ\\Views\\Student\\Details.cshtml",
               "RelativeDocumentMoniker": "IntroToEF_LINQ\\Views\\Student\\Details.cshtml",
               "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\IntroToEF_LINQ\\Views\\Student\\Details.cshtml",
               "RelativeToolTip": "IntroToEF_LINQ\\Views\\Student\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-08T14:12:43.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\IntroToEF_LINQ\\Views\\Student\\Create.cshtml",
               "RelativeDocumentMoniker": "IntroToEF_LINQ\\Views\\Student\\Create.cshtml",
@@ -94,39 +94,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\IntroToEF_LINQ\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "IntroToEF_LINQ\\App_Start\\RouteConfig.cs",
               "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\IntroToEF_LINQ\\App_Start\\RouteConfig.cs",
               "RelativeToolTip": "IntroToEF_LINQ\\App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T13:52:19.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\IntroToEF_LINQ\\Views\\Student\\List.cshtml",
               "RelativeDocumentMoniker": "IntroToEF_LINQ\\Views\\Student\\List.cshtml",
               "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\IntroToEF_LINQ\\Views\\Student\\List.cshtml",
               "RelativeToolTip": "IntroToEF_LINQ\\Views\\Student\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-08T13:46:04.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\IntroToEF_LINQ\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "IntroToEF_LINQ\\Controllers\\StudentController.cs",
               "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroToEF_LINQ\\IntroToEF_LINQ\\Controllers\\StudentController.cs",
               "RelativeToolTip": "IntroToEF_LINQ\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAFMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T13:34:10.378Z",
               "EditorCaption": ""
