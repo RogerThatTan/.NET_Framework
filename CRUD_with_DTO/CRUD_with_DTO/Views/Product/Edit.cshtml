@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+<form method="post">
+    <input type="hidden" name="ProductId" value="@Model.ProductId" />
+    Name: <input type="text" name="Name" value="@Model.Name" class="form-control" placeholder="Name" />
+    <span class="text-danger">@Html.ValidationMessage("Name")</span><br />
+    Description: <input type="text" name="Description" value="@Model.Description" class="form-control" placeholder="Description" />
+    <span class="text-danger">@Html.ValidationMessage("Description")</span><br />
+    Price: <input type="text" name="Price" value="@Model.Price" class="form-control" placeholder="Price" />
+    <span class="text-danger">@Html.ValidationMessage("Price")</span><br />
+    Stock Quantity: <input type="text" name="StockQuantity" value="@Model.StockQuantity" class="form-control" placeholder="Stock Quantity" />
+    <span class="text-danger">@Html.ValidationMessage("StockQuantity")</span><br />
+    Category: <input type="text" name="Category" value="@Model.Category" class="form-control" placeholder="Category" />
+    <span class="text-danger">@Html.ValidationMessage("Category")</span><br />
+    <input type="submit" value="Edit" class="btn btn-success" />
+</form>

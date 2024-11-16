@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>Product ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Stock</th>
+    </tr>
+    <tr>
+        <td>@Model.ProductId</td>
+        <td>@Model.Name</td>
+        <td>@Model.Description</td>
+        <td>@Model.Price</td>
+        <td>@Model.Category</td>
+        <td>@Model.StockQuantity</td>
+    </tr>
+</table>
+<a href="/product/list" class="btn btn-primary">Back</a>

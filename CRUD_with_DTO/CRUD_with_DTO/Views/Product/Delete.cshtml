@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Product ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Stock</th>
+    </tr>
+    <tr>
+        <td>@Model.ProductId</td>
+        <td>@Model.Name</td>
+        <td>@Model.Description</td>
+        <td>@Model.Price</td>
+        <td>@Model.Category</td>
+        <td>@Model.StockQuantity</td>
+    </tr>
+</table>
+<span>
+    Are you sure you want to delete?
+</span>
+<form method="post">
+    <input type="hidden" name="ProductId" value="@Model.ProductId" />
+    <input type="submit" value="Yes" name="del" class="btn btn-danger" />
+    <input type="submit" value="No"  name="del" class="btn btn-danger" />
+</form>
