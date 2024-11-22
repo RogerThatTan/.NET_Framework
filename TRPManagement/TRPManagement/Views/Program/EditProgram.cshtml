@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "EditProgram";
+}
+
+<h2>Edit Program</h2>
+
+<form method="post">
+    <input type="hidden" name="ProgramId" value="@Model.ProgramId" />
+    <span>Program Name</span>
+    <input type="text" name="ProgramName" class="form-control" value="@Model.ProgramName" />
+    <span>Air Time</span>
+    <input type="time" name="AirTime" class="form-control" value="@Model.AirTime" />
+    <span>TRP Score</span>
+    <input type="text" name="TRPScore" inputmode="decimal" pattern="[0-9][.]?[0-9]" class="form-control" value="@Model.TRPScore" />
+    <span>Channel</span>
+    <select name="ChannelId" class="form-control">
+        <option value="@Model.ChannelId" class="border-1 table-bordered overflow-scroll form-control-color">@ViewBag.Channel_name.ChannelName</option>
+
+        @foreach (var item in ViewBag.channels)
+        {   
+            if(item.ChannelId == Model.ChannelId)
+            {
+                continue;
+            }
+
+            <option value="@item.ChannelId">@item.ChannelName</option>
+        }
+    </select>
+    <br />
+    <input type="submit" value="Update" class="btn btn-primary" />
+    <a href="/program/ProgramList" class="btn btn-warning">Back</a>
+</form>

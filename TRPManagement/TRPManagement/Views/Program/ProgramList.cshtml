@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "ProgramList";
+}
+
+<h2>Program List</h2>
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["msg"]
+    </div>
+}
+<table class="table table-bordered">
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th colspan="5" align="center">Channel Name: @item.ChannelName</th>
+        </tr>
+        if (item.Programs.Count != 0)
+        {
+            <tr>
+                <th>Program ID</th>
+                <th>Program Name</th>
+                <th>Air Time</th>
+                <th>TRP Score</th>
+                <th>Actions</th>
+            </tr>
+            foreach (var program in item.Programs)
+            {
+                <tr>
+                    <td>@program.ProgramId</td>
+                    <td>@program.ProgramName</td>
+                    <td>@program.AirTime</td>
+                    <td>@program.TRPScore</td>
+                    <td>
+                        <a href="/program/EditProgram/@program.ProgramId" class="btn btn-primary">Edit</a>
+                        <a href="/program/DeleteProgram/@program.ProgramId" class="btn btn-warning">Delete</a>
+                        <a href="/program/DetailsProgram/@program.ProgramId" class="btn btn-success">Details</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5" align="center">No Program Available</td>
+            </tr>
+        }
+    }
+</table>
+
+<a href="/program/CreateProgram" class="btn btn-success">Create Program</a>
+<a href="/channel/List" class="btn btn-primary">Back</a>

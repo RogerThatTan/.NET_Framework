@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>Add New Program in @ViewBag.ChannelName Channel</h4>
+
+<form method="post">
+    Program Name: <input type="text" name="ProgramName" class="form-control" /><br />
+    Air Time: <input type="text" name="AirTime" placeholder="HH:mm:ss" pattern="^([01]\d|2[0-3]):([0-5]\d):([0-5]\d)$" class="form-control" /><br />
+    <input type="hidden" name="ChannelId" value="@ViewBag.ChannelId" />
+    TRP Score: <input type="number" min="0.0" max="10.0" name="TRPScore" class="form-control" /><br />
+    <input type="submit" value="Create" class="btn btn-success" />
+    <a href="/channel/list" class="btn btn-primary">Back</a>
+</form>

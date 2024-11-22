@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\TRPManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DDB02426-3053-4802-96E0-3F96492FB276}|TRPManagement\\TRPManagement.csproj|c:\\users\\xtanv\\onedrive\\desktop\\.net_framework\\trpmanagement\\trpmanagement\\controllers\\programcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDB02426-3053-4802-96E0-3F96492FB276}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\controllers\\programcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDB02426-3053-4802-96E0-3F96492FB276}|TRPManagement\\TRPManagement.csproj|c:\\users\\xtanv\\onedrive\\desktop\\.net_framework\\trpmanagement\\trpmanagement\\views\\program\\deleteprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDB02426-3053-4802-96E0-3F96492FB276}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\views\\program\\deleteprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDB02426-3053-4802-96E0-3F96492FB276}|TRPManagement\\TRPManagement.csproj|c:\\users\\xtanv\\onedrive\\desktop\\.net_framework\\trpmanagement\\trpmanagement\\controllers\\channelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDB02426-3053-4802-96E0-3F96492FB276}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\controllers\\channelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDB02426-3053-4802-96E0-3F96492FB276}|TRPManagement\\TRPManagement.csproj|c:\\users\\xtanv\\onedrive\\desktop\\.net_framework\\trpmanagement\\trpmanagement\\views\\program\\programlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDB02426-3053-4802-96E0-3F96492FB276}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\views\\program\\programlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDB02426-3053-4802-96E0-3F96492FB276}|TRPManagement\\TRPManagement.csproj|c:\\users\\xtanv\\onedrive\\desktop\\.net_framework\\trpmanagement\\trpmanagement\\views\\program\\editprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDB02426-3053-4802-96E0-3F96492FB276}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\views\\program\\editprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDB02426-3053-4802-96E0-3F96492FB276}|TRPManagement\\TRPManagement.csproj|c:\\users\\xtanv\\onedrive\\desktop\\.net_framework\\trpmanagement\\trpmanagement\\views\\program\\createprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDB02426-3053-4802-96E0-3F96492FB276}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\views\\program\\createprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChannelController.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\TRPManagement\\TRPManagement\\Controllers\\ChannelController.cs",
+              "RelativeDocumentMoniker": "TRPManagement\\Controllers\\ChannelController.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\TRPManagement\\TRPManagement\\Controllers\\ChannelController.cs",
+              "RelativeToolTip": "TRPManagement\\Controllers\\ChannelController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T05:05:19.07Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProgramController.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\TRPManagement\\TRPManagement\\Controllers\\ProgramController.cs",
+              "RelativeDocumentMoniker": "TRPManagement\\Controllers\\ProgramController.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\TRPManagement\\TRPManagement\\Controllers\\ProgramController.cs",
+              "RelativeToolTip": "TRPManagement\\Controllers\\ProgramController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAcwFcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T05:05:21.269Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteProgram.cshtml",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\TRPManagement\\TRPManagement\\Views\\Program\\DeleteProgram.cshtml",
+              "RelativeDocumentMoniker": "TRPManagement\\Views\\Program\\DeleteProgram.cshtml",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\TRPManagement\\TRPManagement\\Views\\Program\\DeleteProgram.cshtml",
+              "RelativeToolTip": "TRPManagement\\Views\\Program\\DeleteProgram.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T18:39:07.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProgramList.cshtml",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\TRPManagement\\TRPManagement\\Views\\Program\\ProgramList.cshtml",
+              "RelativeDocumentMoniker": "TRPManagement\\Views\\Program\\ProgramList.cshtml",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\TRPManagement\\TRPManagement\\Views\\Program\\ProgramList.cshtml",
+              "RelativeToolTip": "TRPManagement\\Views\\Program\\ProgramList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T18:36:42.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateProgram.cshtml",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\TRPManagement\\TRPManagement\\Views\\Program\\CreateProgram.cshtml",
+              "RelativeDocumentMoniker": "TRPManagement\\Views\\Program\\CreateProgram.cshtml",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\TRPManagement\\TRPManagement\\Views\\Program\\CreateProgram.cshtml",
+              "RelativeToolTip": "TRPManagement\\Views\\Program\\CreateProgram.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T18:28:57.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditProgram.cshtml",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\TRPManagement\\TRPManagement\\Views\\Program\\EditProgram.cshtml",
+              "RelativeDocumentMoniker": "TRPManagement\\Views\\Program\\EditProgram.cshtml",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\TRPManagement\\TRPManagement\\Views\\Program\\EditProgram.cshtml",
+              "RelativeToolTip": "TRPManagement\\Views\\Program\\EditProgram.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T18:28:16.049Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
