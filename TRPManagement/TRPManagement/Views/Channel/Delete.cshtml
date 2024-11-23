@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete Channel</h2>
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-warning">
+        @TempData["msg"]
+    </div>
+}
+<form method="post">
+    <table class="table table-bordered">
+        <tr>
+            <th colspan="4" class="text-center">@Model.ChannelName</th>
+        </tr>
+        <tr>
+            <th>Program Id</th>
+            <th>Program Name</th>
+            <th>Air Time</th>
+            <th>TRP</th>
+        </tr>
+        @foreach (var item in ViewBag.plist)
+        {
+            <tr>
+                <td>@item.ProgramId</td>
+                <td>@item.ProgramName</td>
+                <td>@item.AirTime</td>
+                <td>@item.TRPScore</td>
+            </tr>
+        }
+    </table>
+    <input type="hidden" name="ChannelId" value="@Model.ChannelId" />
+    <input type="submit" value="Yes" class="btn btn-danger" name="reply" />
+    <input type="submit" value="No" class="btn btn-warning" name="reply" />
+</form>

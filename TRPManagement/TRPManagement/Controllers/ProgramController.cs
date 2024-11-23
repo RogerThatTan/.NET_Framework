@@ -13,44 +13,53 @@ namespace TRPManagement.Controllers
     {
         MidPracticeTaskEntities db = new MidPracticeTaskEntities();
         
-        [HttpGet]
-        public ActionResult Create(int channelId) //this one is for create from the channel list
-        {   
+        //[HttpGet]
+        //public ActionResult Create(int channelId) //this one is for create from the channel list
+        //{   
 
-            var channelName = (from c in db.Channels
-                               where c.ChannelId == channelId
-                               select c.ChannelName).FirstOrDefault();
+        //    var channelName = (from c in db.Channels
+        //                       where c.ChannelId == channelId
+        //                       select c.ChannelName).FirstOrDefault();
 
-            ViewBag.ChannelId = channelId;
-            ViewBag.ChannelName = channelName;
-            return View();
-        }
+        //    ViewBag.ChannelId = channelId;
+        //    ViewBag.ChannelName = channelName;
+        //    return View();
+        //}
 
-        [HttpPost]
-        public ActionResult Create(ProgramDTO programDTO) //this one is for create from the channel list
-        {
-            var program = ConvertDTO.Convert(programDTO);
-            db.Programs.Add(program);
-            db.SaveChanges();
-            TempData["msg"] = "Program added successfully!";
-            return RedirectToAction("List", "Channel");
-        }
+        //[HttpPost]
+        //public ActionResult Create(ProgramDTO programDTO) //this one is for create from the channel list
+        //{
+        //    var program = ConvertDTO.Convert(programDTO);
+        //    db.Programs.Add(program);
+        //    db.SaveChanges();
+        //    TempData["msg"] = "Program added successfully!";
+        //    return RedirectToAction("List", "Channel");
+        //}
 
         [HttpGet]
         public ActionResult CreateProgram()
         {
-            ViewBag.channels = db.Channels.ToList();
+            ViewBag.channels = ConvertDTO.Convert(db.Channels.ToList());
             return View(new Program());
         }
 
         [HttpPost]
         public ActionResult CreateProgram(ProgramDTO program)
         {
-            db.Programs.Add(ConvertDTO.Convert(program));
-            db.SaveChanges();
-            TempData["msg"] = "Program added successfully!";
-            return RedirectToAction("ProgramList");
+            if (ModelState.IsValid)
+            {
+                db.Programs.Add(ConvertDTO.Convert(program));
+                db.SaveChanges();
+                TempData["msg"] = "Program added successfully!";
+                return RedirectToAction("ProgramList");
+            }
+
+            ViewBag.channels = ConvertDTO.Convert(db.Channels.ToList()); //onek pera dise
+            return View(program);
         }
+
+
+
         [HttpGet]
         public ActionResult EditProgram(int id)
         {
