@@ -239,6 +239,8 @@
     <Content Include="Views\Program\EditProgram.cshtml" />
     <Content Include="Views\Program\DeleteProgram.cshtml" />
     <Content Include="Views\Channel\Delete.cshtml" />
+    <Content Include="Views\Channel\FilterByChannel.cshtml" />
+    <Content Include="Views\Program\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

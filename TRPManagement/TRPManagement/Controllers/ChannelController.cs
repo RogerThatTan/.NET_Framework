@@ -17,8 +17,32 @@ namespace TRPManagement.Controllers
         public ActionResult List()
         {
             var channel = db.Channels.ToList();
+            ViewBag.Channels = channel;
             return View(ConvertDTO.Convert(channel));
         }
+
+        [HttpGet]
+        public ActionResult FilterByChannel(int ChannelId)
+        {
+            var channel = (from c in db.Channels
+                           where c.ChannelId == ChannelId
+                           select c).FirstOrDefault();
+
+            var programs = (from p in db.Programs
+                            where p.ChannelId == ChannelId
+                            select p).ToList();
+
+            ViewBag.ChannelName = channel.ChannelName;
+            return View(ConvertDTO.Convert(programs));
+        }
+
+
+
+
+
+
+
+
 
         [HttpGet]
         public ActionResult Create()

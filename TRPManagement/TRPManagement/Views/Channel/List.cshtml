@@ -10,6 +10,20 @@
         @TempData["msg"]
     </div>
 }
+
+<h2>Filter Programs By Channel</h2>
+<form method="get" action="/channel/filterbychannel">
+    <label for="ChannelId">Select Channel:</label>
+    <select name="ChannelId" id="ChannelId" class="form-control" onchange="this.form.submit()">
+        <option value="">Select Channel</option>
+        @foreach (var channel in ViewBag.Channels)
+        {
+            <option value="@channel.ChannelId">@channel.ChannelName</option>
+        }
+    </select>
+</form>
+
+
 <table class="table table-bordered">
     <tr>
         <th>Channel ID</th>

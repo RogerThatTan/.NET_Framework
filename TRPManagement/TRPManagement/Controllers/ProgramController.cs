@@ -109,7 +109,34 @@ namespace TRPManagement.Controllers
         {
             var channel = db.Channels.ToList();
             var program = db.Programs.ToList();
+            ViewBag.Channels = channel;
             return View(channel);
         }
+
+        public ActionResult Search(string searchTerm)
+        {
+            var programs = from p in db.Programs
+                           select p;
+
+            // Check if searchTerm is numeric (for TRP score)
+            if (decimal.TryParse(searchTerm, out decimal trpScore))
+            {
+                // If it's a valid TRP score, filter by TRP score
+                programs = from p in programs
+                           where p.TRPScore == trpScore
+                           select p;
+            }
+            else if (!string.IsNullOrEmpty(searchTerm))
+            {
+                // If it's not a number, assume it's a program name
+                programs = from p in programs
+                           where p.ProgramName.Contains(searchTerm)
+                           select p;
+            }
+
+            return View(ConvertDTO.Convert(programs.ToList())); // Assuming ConvertDTO is used for converting entities to DTOs
+        }
+
+
     }
 }

@@ -9,6 +9,28 @@
         @TempData["msg"]
     </div>
 }
+
+<h2>Search Programs</h2>
+<form method="get" action="@Url.Action("Search", "Program")" class="form-inline">
+
+    <div class="form-group">
+        <label for="searchTerm">Search (Program Name or TRP Score):</label>
+        <input type="text" name="searchTerm" id="searchTerm" value="@Request.QueryString["searchTerm"]" class="form-control" placeholder="Enter program name or TRP score" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+
 <table class="table table-bordered">
 
     @foreach (var item in Model)
