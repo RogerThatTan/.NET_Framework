@@ -1,0 +1,102 @@
+﻿@using TRPManagement.EF
+
+@{
+    ViewBag.Title = "ProgramList";
+    var user = (User)Session["user"];
+    bool isAdmin = user != null && user.Role == 2;
+}
+
+<h2 class="text-center">Program List</h2>
+
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["msg"]
+    </div>
+}
+<form method="get" action="/program/search">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" name="search" placeholder="Search Program">
+        <div class="input-group-append">
+            <button class="btn btn-primary" type="submit">Search</button>
+        </div>
+    </div>
+</form>
+
+<div>
+    <h6>Filter By Channel</h6>
+    <form method="get" action="/program/filterbychannel">
+        <select class="form-control" name="id" onchange="this.form.submit()">
+            <option selected disabled>Channel Name</option>
+            @foreach (var item in ViewBag.channel)
+            {
+                <option value="@item.ChannelId">@item.ChannelName</option>
+            }
+        </select>
+    </form>
+</div>
+
+<br />
+
+<table class="table table-bordered">
+    @foreach (var item in Model)
+    {
+        <tr>
+            @if (isAdmin)
+            {
+                <th colspan="5" class="text-center">Channel Name: @item.ChannelName</th>
+            }
+            else
+            {
+                <th colspan="4" class="text-center">Channel Name: @item.ChannelName</th>
+            }
+        </tr>
+        if (item.Programs.Count != 0)
+        {
+            <tr>
+                <th>Program ID</th>
+                <th>Program Name</th>
+                <th>Air Time</th>
+                @if (isAdmin)
+                {
+                    <th>TRP Score</th>
+                    <th>Actions</th>
+                }
+            </tr>
+            foreach (var program in item.Programs)
+            {
+                <tr>
+                    <td>@program.ProgramId</td>
+                    <td>@program.ProgramName</td>
+                    <td>@program.AirTime</td>
+                    @if (isAdmin)
+                    {
+                        <td>@program.TRPScore</td>
+                        <td>
+                            <a href="/program/EditProgram/@program.ProgramId" class="btn btn-primary">Edit</a>
+                            <a href="/program/DeleteProgram/@program.ProgramId" class="btn btn-danger">Delete</a>
+                        </td>
+                    }
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                @if (isAdmin)
+                {
+                    <td colspan="5" class="text-center">No Programs Found</td>
+                }
+                else
+                {
+                    <td colspan="4" class="text-center">No Programs Found</td>
+                }
+            </tr>
+        }
+    }
+</table>
+
+<div>
+    <h5>Add More Program </h5><a href="/program/CreateProgram" class="btn btn-success">Create</a>
+    <a href="/channel/ChannelList" class="btn btn-warning">Channel</a>
+</div>
