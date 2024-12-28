@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "EditProgram";
+}
+
+<h2 class="text-center">Edit Program</h2>
+
+<form method="post">
+    <input type="hidden" name="ProgramId" value="@Model.ProgramId" />
+    <input type="text" name="ProgramName" value="@Model.ProgramName" placeholder="Program Name" class="form-control" />
+    <p class="text-danger"></p>
+    <input type="time" name="AirTime" value="@Model.AirTime" placeholder="Air Time (HH:mm:ss)" class="form-control" />
+    <p class="text-danger"></p>
+    <input type="text" inputmode="decimal" name="TRPScore" value="@Model.TRPScore" placeholder="0.0 to 10.0" class="form-control" />
+    <p class="text-danger"></p>
+    <select class="form-control" name="ChannelId">
+        <option selected value="@Model.ChannelId">@ViewBag.channelname</option>
+        @foreach (var item in ViewBag.channels)
+        {
+            <option value="@item.ChannelId">@item.ChannelName</option>
+        }
+    </select>
+    <p class="text-danger"></p>
+    <input type="submit" value="Edit" class="btn btn-success" />
+    <a href="/program/programlist" class="btn btn-warning">Back</a>
+</form>
+

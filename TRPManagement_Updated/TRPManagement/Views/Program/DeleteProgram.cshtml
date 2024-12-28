@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "DeleteProgram";
+}
+
+<h2 class="text-center">Delete Program</h2>
+<form method="post">
+
+    <table class="table table-bordered">
+        <tr>
+            <th colspan="4" class="text-center">Program of @ViewBag.channelname</th>
+        </tr>
+        <tr>
+            <th>Program ID</th>
+            <th>Program Name</th>
+            <th>Air Time</th>
+            <th>TRP</th>
+        </tr>
+        <tr>
+            <td>@Model.ProgramId</td>
+            <td>@Model.ProgramName</td>
+            <td>@Model.AirTime</td>
+            <td>@Model.TRPScore</td>
+        </tr>
+        </table>
+    <input type="hidden" name="ProgramId" value="@Model.ProgramId" />
+    <input type="submit" value="Yes" class="btn btn-danger" name="reply" />
+    <input type="submit" value="No" class="btn btn-warning" name="reply" />
+</form>

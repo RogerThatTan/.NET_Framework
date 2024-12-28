@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "FilterByChannel";
+}
+
+<h2 class="text-center">Filter By Channel: @ViewBag.ChannelName</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>Program ID</th>
+        <th>Program Name</th>
+        <th>Air Time</th>
+        <th>TRP Score</th>
+    </tr>
+    @foreach(var program in Model)
+            {
+                <tr>
+                    <td>@program.ProgramId</td>
+                    <td>@program.ProgramName</td>
+                    <td>@program.AirTime</td>
+                    <td>@program.TRPScore</td>
+                </tr>
+            }
+</table>
+<div>
+    <a href="/program/programlist" class="btn btn-success">Back</a>
+</div>
+
+

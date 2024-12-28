@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "Search";
+}
+
+<h2>Search</h2>
+<div>
+
+
+    @if (Model != null && Model.Count > 0)
+    {
+        <table class="table table-bordered">
+            <tr>
+                <th>Program ID</th>
+                <th>Program Name</th>
+                <th>Air Time</th>
+                <th>TRP Score</th>
+                <th>Channel ID</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ProgramId</td>
+                    <td>@item.ProgramName</td>
+                    <td>@item.AirTime</td>
+                    <td>@item.TRPScore</td>
+                    <td>@item.ChannelId</td>
+                </tr>
+            }
+        </table>
+    }
+    else
+    {
+        <p class="text-danger">No program found matching the search input</p>
+    }
+</div>
+<div>
+    <a href="/program/programlist" class="btn btn-primary">Back</a>
+</div>

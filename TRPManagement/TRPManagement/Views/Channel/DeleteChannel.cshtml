@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "DeleteChannel";
+}
+
+<h2>Delete Channel</h2>
+
+<form method="post">
+
+    <table class="table table-bordered">
+        <tr>
+            <th colspan="4" class="text-center">@Model.ChannelName</th>
+        </tr>
+        <tr>
+            <th>Program ID</th>
+            <th>Program Name</th>
+            <th>Air Time</th>
+            <th>TRP</th>
+        </tr>
+        @foreach (var item in ViewBag.Programs)
+        {
+            <tr>
+                <td>@item.ProgramId</td>
+                <td>@item.ProgramName</td>
+                <td>@item.AirTime</td>
+                <td>@item.TRPScore</td>
+            </tr>
+        }
+    </table>
+
+    <input type="hidden" name="ChannelId" value="@Model.ChannelId" />
+    @if (ViewBag.Programs.Count > 0)
+    {   
+        <h6 class="text-danger text-center">This Channel contains programs already. You Cannot delete this Channel</h6>
+        <input disabled type="submit" value="Yes" class="btn btn-danger" name="reply" />
+    }
+    else
+    {
+        <input type="submit" value="Yes" class="btn btn-danger" name="reply" />
+
+    }
+        <input type="submit" value="No" class="btn btn-success" name="reply" />
+</form>

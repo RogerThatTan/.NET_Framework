@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "ChannelList";
+}
+
+<h4 class="text-center">List of Available Channels</h4>
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["msg"]
+    </div>
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>Channel ID</th>
+        <th>Channel Name</th>
+        <th>Establisher Year</th>
+        <th>Country</th>
+        <th>Actions</th>
+    </tr>
+    @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.ChannelId</td>
+                    <td>@item.ChannelName</td>
+                    <td>@item.EstablishedYear</td>
+                    <td>@item.Country</td>
+                    <td>
+                        <a href="/channel/EditChannel/@item.ChannelId" class="btn btn-warning">Edit</a>
+                        <a href="/channel/DeleteChannel/@item.ChannelId" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+</table>
+<div>
+    <h5>Add More Channel </h5><a href="/channel/createchannel" class="btn btn-primary">Create</a>
+    <a href="/program/programlist" class="btn btn-primary">Program</a>
+
+</div>

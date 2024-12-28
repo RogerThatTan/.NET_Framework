@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "LogPage";
+}
+
+<h2 class="center-text">Login Page</h2>
+
+<form method="post">
+    <input type="text" name="UserName" value="@Model.UserName" placeholder ="User Name"class="form-control"/>
+    <input type="text" name="Password" value="@Model.Password" placeholder ="Password"class="form-control" />
+    <input type="submit" name ="login "value="Login" />
+</form>
