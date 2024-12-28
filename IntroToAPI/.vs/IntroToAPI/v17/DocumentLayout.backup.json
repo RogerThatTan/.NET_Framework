@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroToAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7147A5-155D-4972-A629-3234532B67EC}|IntroToAPI\\IntroToAPI.csproj|c:\\users\\xtanv\\onedrive\\desktop\\introtoapi\\introtoapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7147A5-155D-4972-A629-3234532B67EC}|IntroToAPI\\IntroToAPI.csproj|solutionrelative:introtoapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7147A5-155D-4972-A629-3234532B67EC}|IntroToAPI\\IntroToAPI.csproj|c:\\users\\xtanv\\onedrive\\desktop\\introtoapi\\introtoapi\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7147A5-155D-4972-A629-3234532B67EC}|IntroToAPI\\IntroToAPI.csproj|solutionrelative:introtoapi\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7147A5-155D-4972-A629-3234532B67EC}|IntroToAPI\\IntroToAPI.csproj|c:\\users\\xtanv\\onedrive\\desktop\\introtoapi\\introtoapi\\migrations\\202412281648092_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7147A5-155D-4972-A629-3234532B67EC}|IntroToAPI\\IntroToAPI.csproj|solutionrelative:introtoapi\\migrations\\202412281648092_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7147A5-155D-4972-A629-3234532B67EC}|IntroToAPI\\IntroToAPI.csproj|c:\\users\\xtanv\\onedrive\\desktop\\introtoapi\\introtoapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9D7147A5-155D-4972-A629-3234532B67EC}|IntroToAPI\\IntroToAPI.csproj|solutionrelative:introtoapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7147A5-155D-4972-A629-3234532B67EC}|IntroToAPI\\IntroToAPI.csproj|c:\\users\\xtanv\\onedrive\\desktop\\introtoapi\\introtoapi\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7147A5-155D-4972-A629-3234532B67EC}|IntroToAPI\\IntroToAPI.csproj|solutionrelative:introtoapi\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7147A5-155D-4972-A629-3234532B67EC}|IntroToAPI\\IntroToAPI.csproj|c:\\users\\xtanv\\onedrive\\desktop\\introtoapi\\introtoapi\\ef\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7147A5-155D-4972-A629-3234532B67EC}|IntroToAPI\\IntroToAPI.csproj|solutionrelative:introtoapi\\ef\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7147A5-155D-4972-A629-3234532B67EC}|IntroToAPI\\IntroToAPI.csproj|c:\\users\\xtanv\\onedrive\\desktop\\introtoapi\\introtoapi\\ef\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7147A5-155D-4972-A629-3234532B67EC}|IntroToAPI\\IntroToAPI.csproj|solutionrelative:introtoapi\\ef\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroToAPI\\IntroToAPI\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "IntroToAPI\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroToAPI\\IntroToAPI\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "IntroToAPI\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T17:12:34.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroToAPI\\IntroToAPI\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "IntroToAPI\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroToAPI\\IntroToAPI\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "IntroToAPI\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAnwEoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T16:50:14.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "202412281648092_initDb.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroToAPI\\IntroToAPI\\Migrations\\202412281648092_initDb.cs",
+              "RelativeDocumentMoniker": "IntroToAPI\\Migrations\\202412281648092_initDb.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroToAPI\\IntroToAPI\\Migrations\\202412281648092_initDb.cs",
+              "RelativeToolTip": "IntroToAPI\\Migrations\\202412281648092_initDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T16:48:21.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroToAPI\\IntroToAPI\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "IntroToAPI\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroToAPI\\IntroToAPI\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "IntroToAPI\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T16:47:37.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroToAPI\\IntroToAPI\\EF\\Context.cs",
+              "RelativeDocumentMoniker": "IntroToAPI\\EF\\Context.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroToAPI\\IntroToAPI\\EF\\Context.cs",
+              "RelativeToolTip": "IntroToAPI\\EF\\Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T16:41:08.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroToAPI\\IntroToAPI\\EF\\Course.cs",
+              "RelativeDocumentMoniker": "IntroToAPI\\EF\\Course.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroToAPI\\IntroToAPI\\EF\\Course.cs",
+              "RelativeToolTip": "IntroToAPI\\EF\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T16:41:05.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroToAPI\\IntroToAPI\\Web.config",
+              "RelativeDocumentMoniker": "IntroToAPI\\Web.config",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroToAPI\\IntroToAPI\\Web.config",
+              "RelativeToolTip": "IntroToAPI\\Web.config",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAD0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-28T16:25:49.127Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

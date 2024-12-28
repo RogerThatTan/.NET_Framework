@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspWebApi_Crud\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD8A2D4-04F2-426F-8E53-61EAB3DB2714}|AspWebApi_Crud\\AspWebApi_Crud.csproj|c:\\users\\xtanv\\onedrive\\desktop\\aspwebapi_crud\\aspwebapi_crud\\views\\crudmvc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAD8A2D4-04F2-426F-8E53-61EAB3DB2714}|AspWebApi_Crud\\AspWebApi_Crud.csproj|solutionrelative:aspwebapi_crud\\views\\crudmvc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD8A2D4-04F2-426F-8E53-61EAB3DB2714}|AspWebApi_Crud\\AspWebApi_Crud.csproj|c:\\users\\xtanv\\onedrive\\desktop\\aspwebapi_crud\\aspwebapi_crud\\controllers\\crudmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD8A2D4-04F2-426F-8E53-61EAB3DB2714}|AspWebApi_Crud\\AspWebApi_Crud.csproj|solutionrelative:aspwebapi_crud\\controllers\\crudmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD8A2D4-04F2-426F-8E53-61EAB3DB2714}|AspWebApi_Crud\\AspWebApi_Crud.csproj|c:\\users\\xtanv\\onedrive\\desktop\\aspwebapi_crud\\aspwebapi_crud\\views\\crudmvc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAD8A2D4-04F2-426F-8E53-61EAB3DB2714}|AspWebApi_Crud\\AspWebApi_Crud.csproj|solutionrelative:aspwebapi_crud\\views\\crudmvc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD8A2D4-04F2-426F-8E53-61EAB3DB2714}|AspWebApi_Crud\\AspWebApi_Crud.csproj|c:\\users\\xtanv\\onedrive\\desktop\\aspwebapi_crud\\aspwebapi_crud\\controllers\\crudapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD8A2D4-04F2-426F-8E53-61EAB3DB2714}|AspWebApi_Crud\\AspWebApi_Crud.csproj|solutionrelative:aspwebapi_crud\\controllers\\crudapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD8A2D4-04F2-426F-8E53-61EAB3DB2714}|AspWebApi_Crud\\AspWebApi_Crud.csproj|c:\\users\\xtanv\\onedrive\\desktop\\aspwebapi_crud\\aspwebapi_crud\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD8A2D4-04F2-426F-8E53-61EAB3DB2714}|AspWebApi_Crud\\AspWebApi_Crud.csproj|solutionrelative:aspwebapi_crud\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD8A2D4-04F2-426F-8E53-61EAB3DB2714}|AspWebApi_Crud\\AspWebApi_Crud.csproj|c:\\users\\xtanv\\onedrive\\desktop\\aspwebapi_crud\\aspwebapi_crud\\ef\\employeedb.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD8A2D4-04F2-426F-8E53-61EAB3DB2714}|AspWebApi_Crud\\AspWebApi_Crud.csproj|solutionrelative:aspwebapi_crud\\ef\\employeedb.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CrudApiController.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspWebApi_Crud\\AspWebApi_Crud\\Controllers\\CrudApiController.cs",
+              "RelativeDocumentMoniker": "AspWebApi_Crud\\Controllers\\CrudApiController.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspWebApi_Crud\\AspWebApi_Crud\\Controllers\\CrudApiController.cs",
+              "RelativeToolTip": "AspWebApi_Crud\\Controllers\\CrudApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T08:00:01.441Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CrudMvcController.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspWebApi_Crud\\AspWebApi_Crud\\Controllers\\CrudMvcController.cs",
+              "RelativeDocumentMoniker": "AspWebApi_Crud\\Controllers\\CrudMvcController.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspWebApi_Crud\\AspWebApi_Crud\\Controllers\\CrudMvcController.cs",
+              "RelativeToolTip": "AspWebApi_Crud\\Controllers\\CrudMvcController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T08:05:24.546Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspWebApi_Crud\\AspWebApi_Crud\\Views\\CrudMvc\\Create.cshtml",
+              "RelativeDocumentMoniker": "AspWebApi_Crud\\Views\\CrudMvc\\Create.cshtml",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspWebApi_Crud\\AspWebApi_Crud\\Views\\CrudMvc\\Create.cshtml",
+              "RelativeToolTip": "AspWebApi_Crud\\Views\\CrudMvc\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T08:24:45.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspWebApi_Crud\\AspWebApi_Crud\\Views\\CrudMvc\\Index.cshtml",
+              "RelativeDocumentMoniker": "AspWebApi_Crud\\Views\\CrudMvc\\Index.cshtml",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspWebApi_Crud\\AspWebApi_Crud\\Views\\CrudMvc\\Index.cshtml",
+              "RelativeToolTip": "AspWebApi_Crud\\Views\\CrudMvc\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T08:10:59.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspWebApi_Crud\\AspWebApi_Crud\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "AspWebApi_Crud\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspWebApi_Crud\\AspWebApi_Crud\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "AspWebApi_Crud\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T08:05:41.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeDB.Context.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspWebApi_Crud\\AspWebApi_Crud\\EF\\EmployeeDB.Context.cs",
+              "RelativeDocumentMoniker": "AspWebApi_Crud\\EF\\EmployeeDB.Context.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspWebApi_Crud\\AspWebApi_Crud\\EF\\EmployeeDB.Context.cs",
+              "RelativeToolTip": "AspWebApi_Crud\\EF\\EmployeeDB.Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T07:59:09.222Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
