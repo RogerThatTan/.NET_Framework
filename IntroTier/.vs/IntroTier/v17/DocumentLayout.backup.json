@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroTier\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69812E81-1E9E-4CEF-A1BE-06EBEE96F1EA}|IntroTier\\IntroTier.csproj|c:\\users\\xtanv\\onedrive\\desktop\\introtier\\introtier\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69812E81-1E9E-4CEF-A1BE-06EBEE96F1EA}|IntroTier\\IntroTier.csproj|solutionrelative:introtier\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D72C7C6-A825-412B-8CCE-E35D157692B5}|DAL\\DAL.csproj|c:\\users\\xtanv\\onedrive\\desktop\\introtier\\dal\\repos\\courserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D72C7C6-A825-412B-8CCE-E35D157692B5}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\courserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD914AB4-D4B3-451E-8B79-149BCA0599EE}|BLL\\BLL.csproj|c:\\users\\xtanv\\onedrive\\desktop\\introtier\\bll\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD914AB4-D4B3-451E-8B79-149BCA0599EE}|BLL\\BLL.csproj|solutionrelative:bll\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD914AB4-D4B3-451E-8B79-149BCA0599EE}|BLL\\BLL.csproj|c:\\users\\xtanv\\onedrive\\desktop\\introtier\\bll\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD914AB4-D4B3-451E-8B79-149BCA0599EE}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD914AB4-D4B3-451E-8B79-149BCA0599EE}|BLL\\BLL.csproj|c:\\users\\xtanv\\onedrive\\desktop\\introtier\\bll\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD914AB4-D4B3-451E-8B79-149BCA0599EE}|BLL\\BLL.csproj|solutionrelative:bll\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D72C7C6-A825-412B-8CCE-E35D157692B5}|DAL\\DAL.csproj|c:\\users\\xtanv\\onedrive\\desktop\\introtier\\dal\\repos\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D72C7C6-A825-412B-8CCE-E35D157692B5}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroTier\\IntroTier\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "IntroTier\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroTier\\IntroTier\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "IntroTier\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T17:49:49.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroTier\\BLL\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\CourseService.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroTier\\BLL\\Services\\CourseService.cs",
+              "RelativeToolTip": "BLL\\Services\\CourseService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwDAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T17:41:39.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroTier\\BLL\\DTOs\\CourseDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\CourseDTO.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroTier\\BLL\\DTOs\\CourseDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\CourseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T17:41:06.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseRepo.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroTier\\DAL\\Repos\\CourseRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\CourseRepo.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroTier\\DAL\\Repos\\CourseRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\CourseRepo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwCoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T17:38:54.37Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "d311d1a7-be05-49e6-a024-a52076d1c5df",
+        "Display": 1,
+        "X": 773,
+        "Y": 195,
+        "Width": 800,
+        "Height": 600,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentRepo.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroTier\\DAL\\Repos\\StudentRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\StudentRepo.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroTier\\DAL\\Repos\\StudentRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\StudentRepo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T17:38:37.227Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "56f51c0a-940f-4444-9dc0-166a5152a04b",
+        "Display": 1,
+        "X": 619,
+        "Y": 211,
+        "Width": 800,
+        "Height": 600,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroTier\\BLL\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\IntroTier\\BLL\\Services\\StudentService.cs",
+              "RelativeToolTip": "BLL\\Services\\StudentService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T17:41:56.598Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
