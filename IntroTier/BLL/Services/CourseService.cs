@@ -52,15 +52,10 @@ namespace BLL.Services
 
         public static void Update(CourseDTO c)
         {
-            var config = new MapperConfiguration(cfg =>
-            {
-                cfg.CreateMap<CourseDTO, Course>();
-            });
-            var mapper = new Mapper(config);
-            var data = mapper.Map<Course>(c);
-            var repo = new CourseRepo();
-            repo.Update(data);
-
+            new CourseRepo().Update(GetMapper().Map<Course>(c));
+        }
+        public static void Delete(CourseDTO c) {
+            new CourseRepo().Delete(c.Id);
         }
     }
 

@@ -28,10 +28,20 @@ namespace IntroTier.Controllers
         }
 
         [HttpPut]
-        [Route("api/courses/update")]
-        public HttpResponseMessage Update(CourseDTO c)
-        {
+        [Route("api/courses/update/{id}")]
+        public HttpResponseMessage Update(int id,CourseDTO c)
+            
+        {   c.Id = id;
             CourseService.Update(c);
+            return Request.CreateResponse(HttpStatusCode.OK);
+        }
+
+        [HttpDelete]
+        [Route("api/courses/delete/{id}")]
+        public HttpResponseMessage Delete(int id, CourseDTO c)
+        {
+            c.Id = id;
+            CourseService.Delete(c);
             return Request.CreateResponse(HttpStatusCode.OK);
         }
 
