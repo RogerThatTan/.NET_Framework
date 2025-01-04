@@ -7,13 +7,9 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    public class CourseRepo
+    public class CourseRepo : Repo
     {
-        UMSContext db;
-        public CourseRepo()
-        {
-            db = new UMSContext();
-        }
+        
         public void Create(Course c)
         {
             db.Courses.Add(c);
