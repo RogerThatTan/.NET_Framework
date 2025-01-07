@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspNetFirstWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC76FEF-339B-4DF3-95D9-283BE4D27CC9}|AspNetFirstWebApi\\AspNetFirstWebApi.csproj|c:\\users\\xtanv\\onedrive\\desktop\\aspnetfirstwebapi\\aspnetfirstwebapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BC76FEF-339B-4DF3-95D9-283BE4D27CC9}|AspNetFirstWebApi\\AspNetFirstWebApi.csproj|solutionrelative:aspnetfirstwebapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC76FEF-339B-4DF3-95D9-283BE4D27CC9}|AspNetFirstWebApi\\AspNetFirstWebApi.csproj|c:\\users\\xtanv\\onedrive\\desktop\\aspnetfirstwebapi\\aspnetfirstwebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC76FEF-339B-4DF3-95D9-283BE4D27CC9}|AspNetFirstWebApi\\AspNetFirstWebApi.csproj|solutionrelative:aspnetfirstwebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC76FEF-339B-4DF3-95D9-283BE4D27CC9}|AspNetFirstWebApi\\AspNetFirstWebApi.csproj|c:\\users\\xtanv\\onedrive\\desktop\\aspnetfirstwebapi\\aspnetfirstwebapi\\controllers\\employeesdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC76FEF-339B-4DF3-95D9-283BE4D27CC9}|AspNetFirstWebApi\\AspNetFirstWebApi.csproj|solutionrelative:aspnetfirstwebapi\\controllers\\employeesdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspNetFirstWebApi\\AspNetFirstWebApi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AspNetFirstWebApi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspNetFirstWebApi\\AspNetFirstWebApi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AspNetFirstWebApi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T05:03:05.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspNetFirstWebApi\\AspNetFirstWebApi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AspNetFirstWebApi\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspNetFirstWebApi\\AspNetFirstWebApi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AspNetFirstWebApi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T05:02:51.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeesDataController.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspNetFirstWebApi\\AspNetFirstWebApi\\Controllers\\EmployeesDataController.cs",
+              "RelativeDocumentMoniker": "AspNetFirstWebApi\\Controllers\\EmployeesDataController.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\AspNetFirstWebApi\\AspNetFirstWebApi\\Controllers\\EmployeesDataController.cs",
+              "RelativeToolTip": "AspNetFirstWebApi\\Controllers\\EmployeesDataController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T04:35:46.363Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroTier\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69812E81-1E9E-4CEF-A1BE-06EBEE96F1EA}|IntroTier\\IntroTier.csproj|c:\\users\\xtanv\\onedrive\\desktop\\.net_framework\\introtier\\introtier\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69812E81-1E9E-4CEF-A1BE-06EBEE96F1EA}|IntroTier\\IntroTier.csproj|solutionrelative:introtier\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroTier\\IntroTier\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "IntroTier\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\.Net_Framework\\IntroTier\\IntroTier\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "IntroTier\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T06:24:58.302Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
