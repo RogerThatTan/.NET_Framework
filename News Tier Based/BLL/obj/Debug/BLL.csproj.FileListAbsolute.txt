@@ -12,3 +12,5 @@ C:\Users\xtanv\source\repos\performance\BLL\obj\Debug\BLL.csproj.CoreCompileInpu
 C:\Users\xtanv\source\repos\performance\BLL\obj\Debug\BLL.csproj.Up2Date
 C:\Users\xtanv\source\repos\performance\BLL\obj\Debug\BLL.dll
 C:\Users\xtanv\source\repos\performance\BLL\obj\Debug\BLL.pdb
+C:\Users\xtanv\source\repos\performance\BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\xtanv\source\repos\performance\BLL\bin\Debug\Newtonsoft.Json.xml

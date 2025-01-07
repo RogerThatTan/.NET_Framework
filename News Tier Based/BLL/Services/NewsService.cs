@@ -25,6 +25,7 @@ namespace BLL.Services
         }
         public static void Create(NewsDTO n)
         {
+            n.Date = DateTime.Now.Date;
             new NewsRepo().Create(GetMapper().Map<News>(n));
         }
         public static List<NewsDTO> GetAll()

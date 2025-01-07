@@ -24,6 +24,8 @@ namespace performance.Controllers
         public HttpResponseMessage Create(NewsDTO c)
         {
             NewsService.Create(c);
+
+            //c.Date.ToString(("yyyy-MM-dd"));
             return Request.CreateResponse(HttpStatusCode.OK);
         }
 
@@ -72,11 +74,10 @@ namespace performance.Controllers
         [Route("api/news/filterbydate/{date}")]
         public HttpResponseMessage GetByDate(DateTime date)
         {
+            date = date.Date;
             var news = NewsService.GetByDate(date);
             return Request.CreateResponse(HttpStatusCode.OK, news);
         }
-
-
 
     }
 }

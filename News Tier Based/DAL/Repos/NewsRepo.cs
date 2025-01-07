@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,6 +13,8 @@ namespace DAL.Repos
     {
         public void Create(News n)
         {
+            //var date = System.DateTime.Now;
+            //n.Date = date.Date;
             db.News.Add(n);
             db.SaveChanges();
         }
@@ -42,7 +45,13 @@ namespace DAL.Repos
 
         public List<News> GetByDate(DateTime date)
         {
-            return db.News.Where(n => n.Date == date).ToList();
+
+            var rest = (from n in db.News
+                        where n.Date == date
+                        select n).ToList();
+            return rest;
+
+            //return db.News.Where(n => n.Date == date).ToList();
         }
 
         public List<News> GetByCategory(string category)

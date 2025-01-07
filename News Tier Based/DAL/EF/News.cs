@@ -10,7 +10,9 @@ namespace DAL.EF
     {
         public int Id { get; set; }
         public string Title { get; set; }
-        public DateTime Date { get; set; }
+
+        public System.DateTime Date { get; set; }
+        //public DateOnly Date { get; set; }
         public string Category { get; set; }  
     }
 }

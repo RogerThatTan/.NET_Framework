@@ -58,6 +58,10 @@
     <Compile Include="Migrations\202501071658575_init.Designer.cs">
       <DependentUpon>202501071658575_init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202501072230453_date.cs" />
+    <Compile Include="Migrations\202501072230453_date.Designer.cs">
+      <DependentUpon>202501072230453_date.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\NewsRepo.cs" />
@@ -71,6 +75,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202501071658575_init.resx">
       <DependentUpon>202501071658575_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202501072230453_date.resx">
+      <DependentUpon>202501072230453_date.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

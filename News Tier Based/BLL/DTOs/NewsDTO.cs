@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
 namespace BLL.DTOs
 {
@@ -10,7 +12,9 @@ namespace BLL.DTOs
     {
         public int Id { get; set; }
         public string Title { get; set; }
-        public DateTime Date { get; set; }
+
+        //[JsonConverter(typeof(IsoDateTimeConverter))]
+        public System.DateTime Date { get; set; }
         public string Category { get; set; }
     }
 }
