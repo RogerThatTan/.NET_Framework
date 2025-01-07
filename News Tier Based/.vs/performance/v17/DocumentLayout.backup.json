@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xtanv\\source\\repos\\performance\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1B76577-3ECD-44D3-A887-0DEBB56C8CF1}|performance\\performance.csproj|c:\\users\\xtanv\\source\\repos\\performance\\performance\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1B76577-3ECD-44D3-A887-0DEBB56C8CF1}|performance\\performance.csproj|solutionrelative:performance\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACBD672A-B2ED-4773-AE5A-97551A36D265}|DAL\\DAL.csproj|c:\\users\\xtanv\\source\\repos\\performance\\dal\\ef\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACBD672A-B2ED-4773-AE5A-97551A36D265}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1B76577-3ECD-44D3-A887-0DEBB56C8CF1}|performance\\performance.csproj|c:\\users\\xtanv\\source\\repos\\performance\\performance\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E1B76577-3ECD-44D3-A887-0DEBB56C8CF1}|performance\\performance.csproj|solutionrelative:performance\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACBD672A-B2ED-4773-AE5A-97551A36D265}|DAL\\DAL.csproj|c:\\users\\xtanv\\source\\repos\\performance\\dal\\repos\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACBD672A-B2ED-4773-AE5A-97551A36D265}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACBD672A-B2ED-4773-AE5A-97551A36D265}|DAL\\DAL.csproj|c:\\users\\xtanv\\source\\repos\\performance\\dal\\repos\\newsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACBD672A-B2ED-4773-AE5A-97551A36D265}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\newsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05503B6C-2A23-46AA-A52E-400C95A7F5F6}|BLL\\BLL.csproj|c:\\users\\xtanv\\source\\repos\\performance\\bll\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05503B6C-2A23-46AA-A52E-400C95A7F5F6}|BLL\\BLL.csproj|solutionrelative:bll\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\xtanv\\source\\repos\\performance\\performance\\Web.config",
+              "RelativeDocumentMoniker": "performance\\Web.config",
+              "ToolTip": "C:\\Users\\xtanv\\source\\repos\\performance\\performance\\Web.config",
+              "RelativeToolTip": "performance\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-07T18:20:22.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "News.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\source\\repos\\performance\\DAL\\EF\\News.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\News.cs",
+              "ToolTip": "C:\\Users\\xtanv\\source\\repos\\performance\\DAL\\EF\\News.cs",
+              "RelativeToolTip": "DAL\\EF\\News.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T17:00:53.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\source\\repos\\performance\\performance\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "performance\\Controllers\\NewsController.cs",
+              "ToolTip": "C:\\Users\\xtanv\\source\\repos\\performance\\performance\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "performance\\Controllers\\NewsController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAYwEcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T17:17:20.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NewsService.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\source\\repos\\performance\\BLL\\Services\\NewsService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\NewsService.cs",
+              "ToolTip": "C:\\Users\\xtanv\\source\\repos\\performance\\BLL\\Services\\NewsService.cs",
+              "RelativeToolTip": "BLL\\Services\\NewsService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAA3wFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T17:09:30.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\source\\repos\\performance\\DAL\\Repos\\NewsRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\NewsRepo.cs",
+              "ToolTip": "C:\\Users\\xtanv\\source\\repos\\performance\\DAL\\Repos\\NewsRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\NewsRepo.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T17:02:11.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Repo.cs",
+              "DocumentMoniker": "C:\\Users\\xtanv\\source\\repos\\performance\\DAL\\Repos\\Repo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\Repo.cs",
+              "ToolTip": "C:\\Users\\xtanv\\source\\repos\\performance\\DAL\\Repos\\Repo.cs",
+              "RelativeToolTip": "DAL\\Repos\\Repo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T17:01:26.833Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
