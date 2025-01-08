@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ACBD672A-B2ED-4773-AE5A-97551A36D265}</ProjectGuid>
+    <ProjectGuid>{C95EB1CE-41FF-4FF9-AD13-E8152D55B95D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DAL</RootNamespace>
@@ -52,32 +52,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="EF\FinalContext.cs" />
     <Compile Include="EF\News.cs" />
-    <Compile Include="EF\UMSContext.cs" />
-    <Compile Include="Migrations\202501071658575_init.cs" />
-    <Compile Include="Migrations\202501071658575_init.Designer.cs">
-      <DependentUpon>202501071658575_init.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202501072230453_date.cs" />
-    <Compile Include="Migrations\202501072230453_date.Designer.cs">
-      <DependentUpon>202501072230453_date.cs</DependentUpon>
+    <Compile Include="Interfaces\INewsRepo.cs" />
+    <Compile Include="Migrations\202501072323118_init.cs" />
+    <Compile Include="Migrations\202501072323118_init.Designer.cs">
+      <DependentUpon>202501072323118_init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\NewsRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202501071658575_init.resx">
-      <DependentUpon>202501071658575_init.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202501072230453_date.resx">
-      <DependentUpon>202501072230453_date.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202501072323118_init.resx">
+      <DependentUpon>202501072323118_init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

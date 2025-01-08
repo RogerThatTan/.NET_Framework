@@ -1,9 +1,7 @@
 ﻿using DAL.EF;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics.Contracts;
 using System.Linq;
-using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,10 +9,8 @@ namespace DAL.Repos
 {
     public class NewsRepo : Repo
     {
-        public void Create(News n)
+        public  void Create(News n)
         {
-            //var date = System.DateTime.Now;
-            //n.Date = date.Date;
             db.News.Add(n);
             db.SaveChanges();
         }
@@ -24,49 +20,68 @@ namespace DAL.Repos
             return db.News.ToList();
         }
 
-        public News Get(int id)
+        public News GetNews(int id)
         {
             return db.News.Find(id);
         }
 
-        public void Update(News n)
+        public void Delete(int id)
         {
-            var existing  = Get(n.Id);
+           var n = GetNews(id);
+            db.News.Remove(n);
+            db.SaveChanges();
+        }
+
+        public  void Update(News n)
+        {
+            var existing = GetNews(n.Id);
             db.Entry(existing).CurrentValues.SetValues(n);
             db.SaveChanges();
         }
 
-        public void Delete(int id)
+        //API Features :
+
+        public List<News>NewsByTitle(string title)
         {
-            var exisiting = Get(id);
-            db.News.Remove(exisiting);
-            db.SaveChanges();
+            var ret = (from n in db.News
+                       where n.Title.Contains(title)
+                       select n).ToList();
+            return ret;
         }
 
-        public List<News> GetByDate(DateTime date)
+
+        public List<News> NewsByCategory(string category)
         {
-
-            var rest = (from n in db.News
-                        where n.Date == date
-                        select n).ToList();
-            return rest;
-
-            //return db.News.Where(n => n.Date == date).ToList();
+            var ret = (from n in db.News
+                       where n.Category.Contains(category)
+                       select n).ToList();
+            return ret;
         }
 
-        public List<News> GetByCategory(string category)
+        public List<News> NewsByDate(DateTime date)
         {
-            return db.News.Where(n => n.Category == category).ToList();
+            var ret = (from n in db.News
+                       where n.Date == date
+                       select n).ToList();
+            return ret;
         }
 
-        public List<News> GetByTitle(string title)
+        public List<News> NewsByDateCat(DateTime date, string category)
         {
-            return db.News.Where(n => n.Title == title).ToList();
+            var ret = (from n in db.News
+                       where n.Date == date && n.Category.Contains(category)
+                       select n).ToList();
+            return ret;
+        }
+        public List<News> NewsByDateTitle(DateTime date, string title)
+        {
+            var ret = (from n in db.News
+                       where n.Date == date && n.Title.Contains(title)
+                       select n).ToList();
+            return ret;
         }
 
-        public List<News> GetByTitleAndCategory(string title, string category)
-        {
-            return db.News.Where(n => n.Title == title && n.Category == category).ToList();
-        }
+
+
     }
 }

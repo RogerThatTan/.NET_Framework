@@ -21,50 +21,81 @@ namespace BLL.Services
             });
             var mapper = new Mapper(config);
             return mapper;
-
         }
-        public static void Create(NewsDTO n)
+
+        public static void Create(NewsDTO n) 
         {
-            n.Date = DateTime.Now.Date;
+            //n.Date = DateTime.Now.Date;
             new NewsRepo().Create(GetMapper().Map<News>(n));
         }
+
         public static List<NewsDTO> GetAll()
         {
             return GetMapper().Map<List<NewsDTO>>(new NewsRepo().GetAll());
         }
-        public NewsDTO Get(int id)
+
+        public static NewsDTO GetNews(int id)
         {
-            return GetMapper().Map<NewsDTO>(new NewsRepo().Get(id));
+            return GetMapper().Map<NewsDTO>(new NewsRepo().GetNews(id));
         }
+
         public static void Delete(int id)
         {
             new NewsRepo().Delete(id);
         }
+
         public static void Update(NewsDTO n)
         {
             new NewsRepo().Update(GetMapper().Map<News>(n));
-
         }
 
-        public static List<NewsDTO> GetByCategory(string category)
+        public static List<NewsDTO> NewsByTitle(string title)
         {
-            return GetMapper().Map<List<NewsDTO>>(new NewsRepo().GetByCategory(category));
+            return GetMapper().Map<List<NewsDTO>>(new NewsRepo().NewsByTitle(title));
         }
 
-        public static List<NewsDTO> GetByTitle(string title)
+        public static List<NewsDTO> NewsByCategory(string title)
         {
-            return GetMapper().Map<List<NewsDTO>>(new NewsRepo().GetByTitle(title));
+            return GetMapper().Map<List<NewsDTO>>(new NewsRepo().NewsByCategory(title));
+        }
+        public static List<NewsDTO> NewsByDate(DateTime date)
+        {
+            return GetMapper().Map<List<NewsDTO>>(new NewsRepo().NewsByDate(date));
         }
 
-        public static List<NewsDTO> GetByTitleAndCategory(string title, string category)
+        public static List<NewsDTO> NewsByDateCat(DateTime date, string category)
         {
-            return GetMapper().Map<List<NewsDTO>>(new NewsRepo().GetByTitleAndCategory(title, category));
+            return GetMapper().Map<List<NewsDTO>>(new NewsRepo().NewsByDateCat(date, category));
         }
 
-        public static List<NewsDTO> GetByDate(DateTime date)
+        public static List<NewsDTO> NewsByDateTitle(DateTime date, string title)
         {
-            return GetMapper().Map<List<NewsDTO>>(new NewsRepo().GetByDate(date));
+            return GetMapper().Map<List<NewsDTO>>(new NewsRepo().NewsByDateCat(date, title));
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

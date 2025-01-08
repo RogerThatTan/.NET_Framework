@@ -9,12 +9,10 @@ namespace DAL.Repos
 {
     public class Repo
     {
-        protected UMSContext db;
-
+        protected FinalContext db;
         public Repo()
         {
-            db = new UMSContext();
-        }
-
+            db = new FinalContext();
+        }   
     }
 }
