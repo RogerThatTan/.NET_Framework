@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "BillList";
+}
+
+<h2>BillList</h2>
+
+<h4 class="text-center">List of Available Bills</h4>
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["msg"]
+    </div>
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>Bill ID</th>
+        <th>Amount</th>
+        <th>Bill Date</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.BillId</td>
+            <td>@item.Amount</td>
+            <td>@item.Date</td>
+            <td>@item.Status</td>
+            <td>
+                <a href="/admin/EditBill/@item.BillId" class="btn btn-warning">Edit</a>
+                <a href="/admin/DeleteBill/@item.BillId" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+<div>
+    <h5>Add More Bills </h5><a href="/admin/create" class="btn btn-primary">Create</a>
+    <a href="/customer/CustomerList" class="btn btn-primary">Customer</a>
+
+</div>

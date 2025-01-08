@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Delete Bill";
+}
+
+<h2>Delete Bill</h2>
+
+<form method="post">
+
+    <table class="table table-bordered">
+
+        <tr>
+            <th>Bill ID</th>
+            <th>Amount</th>
+            <th>Date</th>
+            <th>Status</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.BillId</td>
+                <td>@item.Amount</td>
+                <td>@item.Date</td>
+                <td>@item.Status</td>
+            </tr>
+        }
+    </table>
+
+    <input type="hidden" name="BillId" value="@Model.BillId" />
+    <input type="submit" value="Yes" class="btn btn-danger" name="reply" />
+    <input type="submit" value="No" class="btn btn-danger" name="reply" />
+
+</form>

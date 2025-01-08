@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Create Bill";
+}
+
+<h2>Create</h2>
+
+
+<form method="post">
+
+    <input type="number" name="Amount" value="@Model.Amount" placeholder="Enter Amount" class="form-control" />
+
+    <p class="text-danger">@Html.ValidationMessage("Amount")</p>
+
+    <input type="date" name="Date" value="@Model.Date" class="form-control" />
+
+    <p class="text-danger">@Html.ValidationMessage("Date")</p>
+
+    <select class="form-control" name="Status">
+        <option selected disabled>Status</option>
+        <option value="0">Pending</option>
+        <option value="1">Paid</option>
+    </select>
+    <p class="text-danger">@Html.ValidationMessage("Status")</p>
+    <input type="submit" value="Create" class="btn btn-success" />
+    <a href="/admin/billlist" class="btn btn-warning">Back</a>
+</form>
