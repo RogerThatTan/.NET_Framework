@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\xtanv\\OneDrive\\Desktop\\Solid_Rec\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1577B8E0-00E5-410F-AB2A-0463C0DA9CAE}|DAL\\DAL.csproj|c:\\users\\xtanv\\onedrive\\desktop\\solid_rec\\dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1577B8E0-00E5-410F-AB2A-0463C0DA9CAE}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D69DF36-1693-4DD3-94F5-FD8E238C6A7D}|BLL\\BLL.csproj|c:\\users\\xtanv\\onedrive\\desktop\\solid_rec\\bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D69DF36-1693-4DD3-94F5-FD8E238C6A7D}|BLL\\BLL.csproj|solutionrelative:bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0DB32850-2700-44B0-9129-8E3C6BA7F2DB}|Solid_Rec\\Solid_Rec.csproj|c:\\users\\xtanv\\onedrive\\desktop\\solid_rec\\solid_rec\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DB32850-2700-44B0-9129-8E3C6BA7F2DB}|Solid_Rec\\Solid_Rec.csproj|solutionrelative:solid_rec\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0DB32850-2700-44B0-9129-8E3C6BA7F2DB}|Solid_Rec\\Solid_Rec.csproj|c:\\users\\xtanv\\onedrive\\desktop\\solid_rec\\solid_rec\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DB32850-2700-44B0-9129-8E3C6BA7F2DB}|Solid_Rec\\Solid_Rec.csproj|solutionrelative:solid_rec\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D69DF36-1693-4DD3-94F5-FD8E238C6A7D}|BLL\\BLL.csproj|c:\\users\\xtanv\\onedrive\\desktop\\solid_rec\\bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D69DF36-1693-4DD3-94F5-FD8E238C6A7D}|BLL\\BLL.csproj|solutionrelative:bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D69DF36-1693-4DD3-94F5-FD8E238C6A7D}|BLL\\BLL.csproj|c:\\users\\xtanv\\onedrive\\desktop\\solid_rec\\bll\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{1577B8E0-00E5-410F-AB2A-0463C0DA9CAE}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1577B8E0-00E5-410F-AB2A-0463C0DA9CAE}|DAL\\DAL.csproj|c:\\users\\xtanv\\onedrive\\desktop\\solid_rec\\dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1577B8E0-00E5-410F-AB2A-0463C0DA9CAE}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1577B8E0-00E5-410F-AB2A-0463C0DA9CAE}|DAL\\DAL.csproj|c:\\users\\xtanv\\onedrive\\desktop\\solid_rec\\dal\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1577B8E0-00E5-410F-AB2A-0463C0DA9CAE}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -66,11 +66,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PostController.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\Solid_Rec\\Solid_Rec\\Controllers\\PostController.cs",
               "RelativeDocumentMoniker": "Solid_Rec\\Controllers\\PostController.cs",
@@ -83,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\Solid_Rec\\Solid_Rec\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "Solid_Rec\\Models\\LoginModel.cs",
@@ -96,20 +96,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\Solid_Rec\\Solid_Rec\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Solid_Rec\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\Solid_Rec\\Solid_Rec\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Solid_Rec\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T08:24:30.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TokenDTO.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\Solid_Rec\\BLL\\DTOs\\TokenDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\TokenDTO.cs",
@@ -122,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TokenRepo.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\Solid_Rec\\DAL\\Repos\\TokenRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\TokenRepo.cs",
@@ -135,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\Solid_Rec\\DAL\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
@@ -148,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PostContext.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\Solid_Rec\\DAL\\Models\\PostContext.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\PostContext.cs",
@@ -161,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Token.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\Solid_Rec\\DAL\\Models\\Token.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\Token.cs",
@@ -174,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PostService.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\Solid_Rec\\BLL\\Services\\PostService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\PostService.cs",
@@ -187,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\Solid_Rec\\BLL\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\AuthService.cs",
@@ -200,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DataAccessFactory.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\Solid_Rec\\DAL\\DataAccessFactory.cs",
               "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
@@ -213,20 +213,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "UserRepo.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\Solid_Rec\\DAL\\Repos\\UserRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\UserRepo.cs",
               "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\Solid_Rec\\DAL\\Repos\\UserRepo.cs",
               "RelativeToolTip": "DAL\\Repos\\UserRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T07:12:05.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IRepo.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\Solid_Rec\\DAL\\Interfaces\\IRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepo.cs",
