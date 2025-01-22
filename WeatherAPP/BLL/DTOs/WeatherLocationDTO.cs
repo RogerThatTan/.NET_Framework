@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace BLL.DTOs
 {
     public class WeatherLocationDTO : WeatherDTO
-    {
+    {   
+        public int LocationId { get; set; }
         public LocationDTO Location { get; set; }
     }
 }

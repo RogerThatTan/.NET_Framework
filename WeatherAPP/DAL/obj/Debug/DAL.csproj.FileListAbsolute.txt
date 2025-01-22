@@ -10,5 +10,5 @@ C:\Users\xtanv\OneDrive\Desktop\WeatherAPP\DAL\bin\Debug\EntityFramework.SqlServ
 C:\Users\xtanv\OneDrive\Desktop\WeatherAPP\DAL\bin\Debug\EntityFramework.xml
 C:\Users\xtanv\OneDrive\Desktop\WeatherAPP\DAL\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\xtanv\OneDrive\Desktop\WeatherAPP\DAL\obj\Debug\DAL.csproj.Up2Date
-C:\Users\xtanv\OneDrive\Desktop\WeatherAPP\DAL\obj\Debug\DAL.Migrations.initdb.resources
+C:\Users\xtanv\OneDrive\Desktop\WeatherAPP\DAL\obj\Debug\DAL.Migrations.initLaptop.resources
 C:\Users\xtanv\OneDrive\Desktop\WeatherAPP\DAL\obj\Debug\DAL.csproj.GenerateResource.cache

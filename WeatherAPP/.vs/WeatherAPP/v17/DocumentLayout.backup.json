@@ -3,48 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{764E191D-41AA-4980-B5FC-34D5C021FD5A}|DAL\\DAL.csproj|C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\dal\\repos\\locationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{764E191D-41AA-4980-B5FC-34D5C021FD5A}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\locationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{764E191D-41AA-4980-B5FC-34D5C021FD5A}|DAL\\DAL.csproj|c:\\users\\xtanv\\onedrive\\desktop\\weatherapp\\dal\\interface\\iweatherfeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{764E191D-41AA-4980-B5FC-34D5C021FD5A}|DAL\\DAL.csproj|solutionrelative:dal\\interface\\iweatherfeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{764E191D-41AA-4980-B5FC-34D5C021FD5A}|DAL\\DAL.csproj|C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\dal\\ef\\tables\\weatheralert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{764E191D-41AA-4980-B5FC-34D5C021FD5A}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\weatheralert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{764E191D-41AA-4980-B5FC-34D5C021FD5A}|DAL\\DAL.csproj|C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\dal\\ef\\tables\\weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{764E191D-41AA-4980-B5FC-34D5C021FD5A}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{764E191D-41AA-4980-B5FC-34D5C021FD5A}|DAL\\DAL.csproj|C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\dal\\ef\\tables\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{764E191D-41AA-4980-B5FC-34D5C021FD5A}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{764E191D-41AA-4980-B5FC-34D5C021FD5A}|DAL\\DAL.csproj|C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\dal\\ef\\weathercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{764E191D-41AA-4980-B5FC-34D5C021FD5A}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\weathercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{764E191D-41AA-4980-B5FC-34D5C021FD5A}|DAL\\DAL.csproj|C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\dal\\repos\\weatherrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{764E191D-41AA-4980-B5FC-34D5C021FD5A}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\weatherrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EBE8D45-A672-4300-84FB-D0FE0BA97A7A}|BLL\\BLL.csproj|C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\bll\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EBE8D45-A672-4300-84FB-D0FE0BA97A7A}|BLL\\BLL.csproj|solutionrelative:bll\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37038D17-BDBE-48F6-95B4-F6616FA682BC}|WeatherAPP\\WeatherAPP.csproj|C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\weatherapp\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37038D17-BDBE-48F6-95B4-F6616FA682BC}|WeatherAPP\\WeatherAPP.csproj|solutionrelative:weatherapp\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37038D17-BDBE-48F6-95B4-F6616FA682BC}|WeatherAPP\\WeatherAPP.csproj|C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\weatherapp\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37038D17-BDBE-48F6-95B4-F6616FA682BC}|WeatherAPP\\WeatherAPP.csproj|c:\\users\\xtanv\\onedrive\\desktop\\weatherapp\\weatherapp\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37038D17-BDBE-48F6-95B4-F6616FA682BC}|WeatherAPP\\WeatherAPP.csproj|solutionrelative:weatherapp\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EBE8D45-A672-4300-84FB-D0FE0BA97A7A}|BLL\\BLL.csproj|C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\bll\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EBE8D45-A672-4300-84FB-D0FE0BA97A7A}|BLL\\BLL.csproj|solutionrelative:bll\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37038D17-BDBE-48F6-95B4-F6616FA682BC}|WeatherAPP\\WeatherAPP.csproj|c:\\users\\xtanv\\onedrive\\desktop\\weatherapp\\weatherapp\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37038D17-BDBE-48F6-95B4-F6616FA682BC}|WeatherAPP\\WeatherAPP.csproj|solutionrelative:weatherapp\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBE8D45-A672-4300-84FB-D0FE0BA97A7A}|BLL\\BLL.csproj|c:\\users\\xtanv\\onedrive\\desktop\\weatherapp\\bll\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBE8D45-A672-4300-84FB-D0FE0BA97A7A}|BLL\\BLL.csproj|solutionrelative:bll\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,141 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LocationRepo.cs",
-              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\DAL\\Repos\\LocationRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repos\\LocationRepo.cs",
-              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\DAL\\Repos\\LocationRepo.cs",
-              "RelativeToolTip": "DAL\\Repos\\LocationRepo.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T13:39:49.647Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LocationService.cs",
-              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\BLL\\Services\\LocationService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\LocationService.cs",
-              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\BLL\\Services\\LocationService.cs",
-              "RelativeToolTip": "BLL\\Services\\LocationService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAUwCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T13:58:40.349Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "LocationController.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\WeatherAPP\\Controllers\\LocationController.cs",
               "RelativeDocumentMoniker": "WeatherAPP\\Controllers\\LocationController.cs",
               "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\WeatherAPP\\Controllers\\LocationController.cs",
               "RelativeToolTip": "WeatherAPP\\Controllers\\LocationController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAqwDMAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T16:03:50.487Z",
-              "IsPinned": true
+              "WhenOpened": "2025-01-22T04:01:10.478Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "WeatherController.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\WeatherAPP\\Controllers\\WeatherController.cs",
               "RelativeDocumentMoniker": "WeatherAPP\\Controllers\\WeatherController.cs",
               "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\WeatherAPP\\Controllers\\WeatherController.cs",
               "RelativeToolTip": "WeatherAPP\\Controllers\\WeatherController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAAD8AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswF0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T13:59:06.788Z",
-              "IsPinned": true
+              "WhenOpened": "2025-01-22T03:59:04.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "WeatherService.cs",
               "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\BLL\\Services\\WeatherService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\WeatherService.cs",
               "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\BLL\\Services\\WeatherService.cs",
               "RelativeToolTip": "BLL\\Services\\WeatherService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T13:59:10.703Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WeatherRepo.cs",
-              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\DAL\\Repos\\WeatherRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repos\\WeatherRepo.cs",
-              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\DAL\\Repos\\WeatherRepo.cs",
-              "RelativeToolTip": "DAL\\Repos\\WeatherRepo.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T15:50:13.159Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WeatherContext.cs",
-              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\DAL\\EF\\WeatherContext.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\WeatherContext.cs",
-              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\DAL\\EF\\WeatherContext.cs",
-              "RelativeToolTip": "DAL\\EF\\WeatherContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T21:07:10.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Location.cs",
-              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\DAL\\EF\\Tables\\Location.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\Location.cs",
-              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\DAL\\EF\\Tables\\Location.cs",
-              "RelativeToolTip": "DAL\\EF\\Tables\\Location.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T21:05:04.197Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Weather.cs",
-              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\DAL\\EF\\Tables\\Weather.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\Weather.cs",
-              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\DAL\\EF\\Tables\\Weather.cs",
-              "RelativeToolTip": "DAL\\EF\\Tables\\Weather.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T21:04:47.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherAlert.cs",
-              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\DAL\\EF\\Tables\\WeatherAlert.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\WeatherAlert.cs",
-              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\DAL\\EF\\Tables\\WeatherAlert.cs",
-              "RelativeToolTip": "DAL\\EF\\Tables\\WeatherAlert.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T21:04:44.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IWeatherFeatures.cs",
-              "DocumentMoniker": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\DAL\\Interface\\IWeatherFeatures.cs",
-              "RelativeDocumentMoniker": "DAL\\Interface\\IWeatherFeatures.cs",
-              "ToolTip": "C:\\Users\\xtanv\\OneDrive\\Desktop\\WeatherAPP\\DAL\\Interface\\IWeatherFeatures.cs",
-              "RelativeToolTip": "DAL\\Interface\\IWeatherFeatures.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T20:18:22.741Z",
+              "WhenOpened": "2025-01-22T02:57:27.402Z",
               "EditorCaption": ""
             }
           ]

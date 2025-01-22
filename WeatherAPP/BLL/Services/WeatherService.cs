@@ -16,22 +16,28 @@ namespace BLL.Services
         {
             var config = new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<Location, LocationDTO>();
-                cfg.CreateMap<LocationDTO, Location>();
+                
                 cfg.CreateMap<Weather, WeatherDTO>();
                 cfg.CreateMap<WeatherDTO, Weather>();
                 cfg.CreateMap<Weather, WeatherLocationDTO>();
                 cfg.CreateMap<WeatherLocationDTO, Weather>();
+                cfg.CreateMap<LocationWeatherDTO,  WeatherLocationDTO>();
+                cfg.CreateMap<WeatherLocationDTO, LocationWeatherDTO>();
+                cfg.CreateMap<Weather, LocationWeatherDTO>();
+                cfg.CreateMap<WeatherLocationDTO, WeatherDTO>();
+                cfg.CreateMap<WeatherDTO, WeatherLocationDTO>();
+
 
             });
             var mapper = new Mapper(config);
             return mapper;
         }
 
-        public static WeatherDTO Create(WeatherDTO weather)
+        public static bool Create(WeatherLocationDTO weather)
         {
             var data = DataAccessFactory.WeatherData();
-            return GetMapper().Map<WeatherDTO>(data.Create(GetMapper().Map<Weather>(weather)));
+            var convert = GetMapper().Map<Weather>(weather);
+            return data.Create(convert);
         }
 
         public static WeatherDTO Get(int id)
@@ -74,9 +80,21 @@ namespace BLL.Services
             return GetMapper().Map<WeatherDTO>(data);
         }
 
+        public static string Alert(int locationId)
+        {
+            var data = DataAccessFactory.WeatherFeatures().Alert(locationId);
 
+            var high = data.Where(x => x.Temperature > 30).ToList();
+            var low = data.Where(x => x.Temperature < 10).ToList();
+            
+            if (high.Count > low.Count)
+            {
+                return "Temp High";
+                
+            }
+            return "Temp Low";
 
-
+        }
 
     }
 }

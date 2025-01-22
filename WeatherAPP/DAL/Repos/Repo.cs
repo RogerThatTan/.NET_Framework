@@ -9,8 +9,8 @@ namespace DAL.Repos
 {
     internal class Repo
     {
-        internal WeatherContext db;
-        internal Repo()
+        protected WeatherContext db;
+        protected Repo()
         {
             db = new WeatherContext();
         }

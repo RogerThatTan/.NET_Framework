@@ -13,11 +13,11 @@ namespace WeatherAPP.Controllers
     {
         [HttpPost]
         [Route("api/weather/create")]
-        public HttpResponseMessage Create(WeatherDTO weather)
+        public HttpResponseMessage Create(WeatherLocationDTO weather)
         {
            
          var data = WeatherService.Create(weather);
-         if(data != null) return Request.CreateResponse(HttpStatusCode.OK,"Weather added successfully");
+         if(data) return Request.CreateResponse(HttpStatusCode.OK,"Weather added successfully");
             return Request.CreateResponse(HttpStatusCode.BadRequest, "Weather not added");
 
         }
@@ -88,5 +88,13 @@ namespace WeatherAPP.Controllers
             return Request.CreateResponse(HttpStatusCode.BadRequest, "No data found");
         }
 
+        [HttpGet]
+        [Route("api/weather/alert/{locationId}")]
+        public HttpResponseMessage Alert(int locationId)
+        {
+            var data = WeatherService.Alert(locationId);
+            if (data != null) return Request.CreateResponse(HttpStatusCode.OK, data);
+            return Request.CreateResponse(HttpStatusCode.BadRequest, "No data found");
+        }
     }
 }

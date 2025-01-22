@@ -38,8 +38,6 @@ namespace DAL.Repos
             return db.Locations.Find(id);
         }
 
-        
-
         public Location Update(Location obj)
         {
             var ex = Get(obj.Id);
@@ -49,8 +47,6 @@ namespace DAL.Repos
             db.SaveChanges();
             return obj;
         }
-
-        
 
     }
 }

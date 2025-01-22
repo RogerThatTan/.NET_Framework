@@ -12,6 +12,7 @@ namespace DAL.Interface
         List<Weather>SearchByLocation(int id);
         List<Weather> GetForecastsForNext7Days(int id);
         Weather DisplayCurrentWeather(int id);
+        List<Weather> Alert(int id);
 
     }
 }

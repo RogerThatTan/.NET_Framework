@@ -58,9 +58,9 @@
     <Compile Include="EF\WeatherContext.cs" />
     <Compile Include="Interface\IWeatherFeatures.cs" />
     <Compile Include="Interface\IRepo.cs" />
-    <Compile Include="Migrations\202501212016290_initdb.cs" />
-    <Compile Include="Migrations\202501212016290_initdb.Designer.cs">
-      <DependentUpon>202501212016290_initdb.cs</DependentUpon>
+    <Compile Include="Migrations\202501220121019_initLaptop.cs" />
+    <Compile Include="Migrations\202501220121019_initLaptop.Designer.cs">
+      <DependentUpon>202501220121019_initLaptop.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,8 +73,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202501212016290_initdb.resx">
-      <DependentUpon>202501212016290_initdb.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202501220121019_initLaptop.resx">
+      <DependentUpon>202501220121019_initLaptop.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
